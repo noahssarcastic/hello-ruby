@@ -1,19 +1,15 @@
 # frozen_string_literal: true
 
 # next
-['go', 'go', 'skip', 'go'].each do |message|
-  if message == 'skip'
-      next
-  end
+%w[go go skip go].each do |message|
+  next if message == 'skip'
 
   print message
 end
 
 # break
-['go', 'go', 'stop', 'ignore', 'ignore'].each do |message|
-  if message == 'stop'
-      break
-  end
+%w[go go stop ignore ignore].each do |message|
+  break if message == 'stop'
 
   print message
 end

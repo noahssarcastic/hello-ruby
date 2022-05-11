@@ -9,9 +9,10 @@ hello_world = x + y
 puts hello_world
 
 # Constants are in pascal case.
-ThisWillNeverChange = 'I am a constant!'
+THIS_WILL_NEVER_CHANGE = 'I am a constant!'
 
 # Globals
-$this_is_everywhere
+$this_is_everywhere = 'yes, everywhere'
 
-# Object::constants all top level constants (including objects)
+# Object.constants lists all top level constants (including objects)
+puts Object.constants

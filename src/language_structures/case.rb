@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-# case,when
+# Remember: "case, when"
 case gets
 when 'hi'
-    print 'hello there!'
+  print 'hello there!'
 when 'bye'
-    print 'goodbye then.'
+  print 'goodbye then.'
 else
-    print 'I don\'t know that phrase.'
+  print 'I don\'t know that phrase.'
 end
