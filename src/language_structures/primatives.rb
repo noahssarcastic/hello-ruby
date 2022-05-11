@@ -9,3 +9,8 @@ fancy_science_number = 12.043e-04
 
 # This is new, a symbol!
 :ponce_de_leon
+
+# nil
+nil
+
+# Nil and false are falsey

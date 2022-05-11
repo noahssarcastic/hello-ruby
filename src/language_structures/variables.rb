@@ -11,3 +11,5 @@ ThisWillNeverChange = 'I am a constant!'
 
 # Globals
 $this_is_everywhere
+
+# Object::constants all top level constants (including objects)
