@@ -1,13 +1,10 @@
+# frozen_string_literal: true
+
+# These are all the base operators.
 # ** !  ~  *  /  %  +  -  &
 # << >> |  ^  >  >= <  <= <=>
 # || != =~ !~ && += -= == ===
 # .. ... not and or
 
-# operators are methods
-print true.==(true)
-
-#Concat
-print 'con' << 'join'
-
-# ===
-print (1895..1913) === 1899
+# Much like other langs, operators are methods too.
+print true.==(false)

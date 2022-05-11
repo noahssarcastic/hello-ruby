@@ -6,6 +6,7 @@ puts 'Hi I\'m puts.'
 
 # Its pretty similar to print and puts. Here's an example of its real use.
 
+# This is a dog.
 class Dog
   def initialize(name)
     @name = name

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Variables are lowercase words.
 x = 'hello'
 y = 'world'
